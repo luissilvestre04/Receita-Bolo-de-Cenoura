@@ -1,12 +1,23 @@
 body *{
   font-family: "Inter", sans-serif;
+  font-size: 20px;
 }
 body{
   background:antiquewhite ;
   text-align: center;
+  margin: 70px;
+  
+}
+body h1{
+  font-size: 30px;
+}
+body h2{
+  font-size: 25px;
 }
 
-
+#dica H2{
+  color: red;
+}
 #dica {
   border: 2px solid black;
   border-radius: 10px;
