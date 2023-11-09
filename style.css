@@ -1,20 +1,31 @@
 body *{
-  font-family: "Inter", sans-serif;
+  font-family:Trebuchet MS, sans-serif;
   
 }
 body{
   background:antiquewhite ;
   text-align: center;
-  margin: 70px 10px  ;
- 
+  margin: 100px;
+  
+}
 
+@media only screen and (max-device-width: 900px) {
+#container { width:100%; } 
 }
 
 
 #Ingredientes{
-  
+ 
   margin: auto 200px;
   
+}
+
+#Ingredientes {
+text-align: left;
+}
+
+#Ingredientes h2{
+text-align: center ;
 }
 
 #dica H2{
