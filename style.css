@@ -7,7 +7,7 @@
   height: 65px;
   text-align: center;
   padding-top: 15px;
-  border-radius: 3px;
+  border-radius: 8px;
 }
 #header h1{
   color: aliceblue;
@@ -18,33 +18,60 @@ body{
   background:antiquewhite ;
 
 }
+h1{
+  text-align: center;
+}
+
+h2{
+  text-align: center;
+}
 
 #img{
   background-image: url(assets/bolo-de-cenoura.jpg);
   background-position: center;
   background-size: cover;
-  height: 300px;
-
+  height: 368px;
+  border-radius: 7px;
+  margin: 4%;
 }
 
+ #infos{
+  padding: 10%;
+
+ }
+
   #Ingredientes1 {
-    background-color: gray;
+    background-color: white;
     width: 70%;
     margin: auto;
     padding: 20px;
     font-weight: 300;
+    border-radius: 7px;
+    border: 1px solid black
   }
 
   #Ingredientes2 {
-
+   background-color: white;
    width: 70% ;
    margin: auto;
    padding: 20px;
    font-weight: 300;
+   border-radius: 7px;
+   border: 1px solid black;
+   
   }
+
+    #Modo-de-preparo1{
+      padding: 10%;
+    }
+
+     #Modo-de-preparo2{
+      padding: 10%;
+    }
 
   li{
     list-style: inside;
+    line-height: 30px;
   }
 
 #dica H2{
@@ -53,10 +80,24 @@ body{
 #dica {
   border: 2px solid black;
   border-radius: 10px;
-  
-  
+  background-color: white;
+  text-align: center;
+  margin: 10%;
 }
 
 footer{
   text-align: center;
+  padding: 3%;
 }
+
+#perfil{
+  border: 3px solid black;
+  text-align: center;
+  padding: 5%;
+  background-color: royalblue;
+  margin: 10%;
+  
+}
+  #perfil a{
+    color: white;
+  }
